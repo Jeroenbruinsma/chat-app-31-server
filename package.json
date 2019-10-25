@@ -1,0 +1,28 @@
+{
+  "name": "chat-app-31-sever",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "json-sse": "0.0.0",
+    "pg": "^7.12.1",
+    "sequelize": "^5.21.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeroenbruinsma/chat-app-31-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeroenbruinsma/chat-app-31-server/issues"
+  },
+  "homepage": "https://github.com/Jeroenbruinsma/chat-app-31-server#readme"
+}
