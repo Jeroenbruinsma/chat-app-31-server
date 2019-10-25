@@ -1,6 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const streamRouter =  require('./stream/router')
+const userRouter = require('./user/router')
 const cors = require('cors')
 
 const app = express()
@@ -18,4 +19,5 @@ app.get('/', (request, response) => {
 })
 
 app.use(streamRouter)
+app.use(userRouter)
 
